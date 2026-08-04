@@ -59,24 +59,6 @@
 [프론트엔드 저장소](https://github.com/toddnrl/frontagent-spc2026)
 
 
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=toddnrl&show_icons=true&hide_border=true&count_private=true">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=toddnrl&layout=compact&hide_border=true">
-
-</div>
-
-## 📈 Activity
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=toddnrl&hide_border=true">
-
-</div>
-
 ## 📫 Contact
 
 - GitHub: [@toddnrl](https://github.com/toddnrl)
