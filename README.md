@@ -76,5 +76,5 @@ AI Agent 기반 고객 응대 서비스입니다.
 ## Contact
 
 - GitHub: [@toddnrl](https://github.com/toddnrl)
-- Portfolio: 포트폴리오 링크 입력
-- Email: 공개할 이메일 입력
+- Portfolio: https://shocking-bergamot-94c.notion.site/cf2aed7df79e83b286ac811543717552?pvs=73
+- Email: andrea144@naver.com
