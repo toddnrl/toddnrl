@@ -11,11 +11,12 @@
 
 ## About Me
 
-- FastAPI 기반 백엔드 API 개발
-- RAG 기반 문서 검색 및 답변 시스템 구현
-- AI Agent의 요청 분류 및 실행 흐름 설계
-- Dynamic Task Flow 기반 업무 자동화
-- 데이터베이스 설계 및 API 연동
+- FastAPI 기반 비동기 Backend API 개발
+- LangGraph 기반 멀티턴 AI Agent 및 상태 관리
+- LangChain Tool Calling을 활용한 Agent 실행 구조 구현
+- RAG 기반 문서 검색 및 근거 기반 답변 생성
+- PostgreSQL, Redis, Supabase를 활용한 데이터 관리
+- Docker 기반 서비스 실행 환경 구성
 
 ## Tech Stack
 
@@ -58,19 +59,16 @@ AI Agent 기반 고객 응대 서비스입니다.
 
 ### Core Features
 
-- AI 기반 사용자 의도 분석
-- 일반 응답, 지식 검색, 태스크 실행, 상담원 연결 경로 분류
-- RAG 기반 업장 지식 검색 및 근거 기반 답변 생성
-- FAQ, 가격표, 정책, 서비스 문서 청킹 및 검색
-- Dynamic Task Flow Builder
-- Trigger, Node, Edge, Memory, Task Session 기반 실행 구조
-- 예약 생성, 예약 조회, 예약 취소 흐름 구현
-- 사용자별 태스크 진행 상태 관리
-- 서비스, 옵션, 가격 정보 자동 추출
-- 추가 문서 업로드를 통한 서비스 데이터 확장
-- 동일 지식 문서 중복 업로드 방지
-- 비동기 스트리밍 응답
-- 채팅 및 음성 기반 고객 응대
+
+- 고객의 채팅과 음성 요청을 분석하여 상담, 지식 검색, 예약 업무로 연결
+- FastAPI 기반 채팅, 지식, 서비스, 예약 관련 Backend API 구현
+- LangGraph로 Conversation, Decision, Knowledge, Rule, Response 노드 구성
+- 사용자 의도를 Knowledge Search, Reservation Task, Human Handoff, General Response로 분기
+- LangChain Tool Calling으로 AI Agent가 필요한 기능을 선택하도록 구현
+- Pydantic Structured Output으로 의도와 실행 결과를 구조화된 데이터로 반환
+- LangGraph State에 대화 메시지, Task 상태, RAG 결과, 최종 응답 저장
+- PostgreSQL Checkpoint를 활용해 멀티턴 대화와 예약 진행 상태 유지
+
 
 [백엔드 저장소](https://github.com/toddnrl/FrontAgent-Server-SPC2026) |
 [프론트엔드 저장소](https://github.com/toddnrl/frontagent-spc2026)
